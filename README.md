@@ -36,7 +36,7 @@ mkdir -p marsim_ws/src
 cd marsim_ws/src
 git clone git@github.com:hku-mars/MARSIM.git
 cd ..
-catkin_make
+colcon build --packages-up-to test_interface
 ```
 
 ## run the simulation
