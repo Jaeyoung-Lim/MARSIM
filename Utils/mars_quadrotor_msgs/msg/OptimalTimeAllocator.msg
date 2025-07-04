@@ -1,7 +1,7 @@
 Header header
 
-time start_time
-time final_time
+builtin_interfaces/Time start_time
+builtin_interfaces/Time final_time
 
 # the trajectory id, starts from "1".
 uint32 trajectory_id
